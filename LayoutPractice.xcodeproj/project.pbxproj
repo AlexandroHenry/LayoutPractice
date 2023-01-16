@@ -11,6 +11,11 @@
 		AA3823692975375100B64240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3823682975375100B64240 /* ContentView.swift */; };
 		AA38236B2975375200B64240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA38236A2975375200B64240 /* Assets.xcassets */; };
 		AA38236E2975375200B64240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA38236D2975375200B64240 /* Preview Assets.xcassets */; };
+		AA382378297538B900B64240 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA382377297538B900B64240 /* FirstView.swift */; };
+		AA8935C6297564DE00DC532B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8935C5297564DE00DC532B /* SecondView.swift */; };
+		AA8935C8297565FF00DC532B /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8935C7297565FF00DC532B /* ThirdView.swift */; };
+		AA8935CA2975669100DC532B /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8935C92975669100DC532B /* ForthView.swift */; };
+		AA8935CC297566FF00DC532B /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8935CB297566FF00DC532B /* FifthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		AA3823682975375100B64240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA38236A2975375200B64240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA38236D2975375200B64240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA382377297538B900B64240 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		AA8935C5297564DE00DC532B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		AA8935C7297565FF00DC532B /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		AA8935C92975669100DC532B /* ForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
+		AA8935CB297566FF00DC532B /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		AA3823652975375100B64240 /* LayoutPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AA3823742975376100B64240 /* View */,
 				AA3823662975375100B64240 /* LayoutPracticeApp.swift */,
 				AA3823682975375100B64240 /* ContentView.swift */,
 				AA38236A2975375200B64240 /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				AA38236D2975375200B64240 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA3823742975376100B64240 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA382377297538B900B64240 /* FirstView.swift */,
+				AA8935C5297564DE00DC532B /* SecondView.swift */,
+				AA8935C7297565FF00DC532B /* ThirdView.swift */,
+				AA8935C92975669100DC532B /* ForthView.swift */,
+				AA8935CB297566FF00DC532B /* FifthView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3823692975375100B64240 /* ContentView.swift in Sources */,
+				AA8935C8297565FF00DC532B /* ThirdView.swift in Sources */,
+				AA8935CA2975669100DC532B /* ForthView.swift in Sources */,
+				AA382378297538B900B64240 /* FirstView.swift in Sources */,
+				AA8935C6297564DE00DC532B /* SecondView.swift in Sources */,
+				AA8935CC297566FF00DC532B /* FifthView.swift in Sources */,
 				AA3823672975375100B64240 /* LayoutPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
